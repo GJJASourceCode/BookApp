@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
             child: PageView.builder(
               itemCount: 10,
               itemBuilder: (context, index) => Container(
-                width: 150.0, // 원하는 너비로 수정하세요.
-                height: 100.0, // 원하는 높이로 수정하세요.
+                width: 150.0,
+                height: 100.0, 
                 child: Image.asset('myassets/mytestimages/image1.jpg',
                 ),
               ),
